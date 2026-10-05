@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: Greeting Akash
         run: echo "Hello Akash! How are you?"
+  job2_greetAanchal:
+    runs-on: ubuntu-latest
+    steps:
+      - name: now greeting Aanchal
+        run: echo "Hello, Mrs. Gupta! How are you?"
