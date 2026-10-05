@@ -1,2 +1,8 @@
 name: greeting workflow
 on: push
+jobs:
+  job1_greetAkash:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting Akash
+        run: echo "Hello Akash! How are you?"
