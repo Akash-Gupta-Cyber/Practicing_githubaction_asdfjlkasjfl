@@ -7,6 +7,7 @@ jobs:
       - name: Greeting Akash
         run: echo "Hello Akash! How are you?"
   job2_greetAanchal:
+    needs: job1_greetAkash
     runs-on: ubuntu-latest
     steps:
       - name: now greeting Aanchal
