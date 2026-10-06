@@ -10,7 +10,7 @@ jobs:
       - name: building automatically
         run: echo 'building automatically...'
   deploying:
-    needs: building
+  # needs: building this will skip the second job so remove needs: building 
     if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-22.04
     steps:
