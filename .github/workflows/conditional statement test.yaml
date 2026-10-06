@@ -7,5 +7,5 @@ jobs:
       - name: testing by akash
         run: echo 'building the project'
       - name: one more testing
-        if: github.ref == 'refs/head/master'
+        if: github.ref == 'refs/head/main'
         run: echo 'deploying the job'
