@@ -1,0 +1,7 @@
+name: Main workflow
+on: push
+jobs:
+  displaying_name_from_reusable_yaml:
+    uses: ./.github/workflows/Reusable.yaml
+    with:
+      username: "Akash Gupta"
